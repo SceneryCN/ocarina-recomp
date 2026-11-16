@@ -165,8 +165,9 @@
 # lang = en-US
 # System mode reported to the game: docked or handheld.
 # operation_mode = docked
-# Language of the settings menu and the overlay: en or ru. Default: the Windows display language, English if it is
-# neither.
+# Settings menu and overlay: en, ru, zh-Hans (Simplified Chinese), or zh-Hant (Traditional Chinese).
+# Default: the system display language when supported, otherwise English. Changes apply without restarting.
+# Chinese text needs an installed CJK font (Windows Chinese fonts or Noto Sans CJK on Linux).
 # menu_lang = en
 
 [audio]

@@ -57,6 +57,14 @@ Without the folder (an install made by an older setup, or one where the setup co
 
 The Minus+Plus combo never reaches the game. In the menu the arrow keys, the D-pad or the left stick move, Enter or A selects, Q and E or L and R switch tabs, Esc or B goes back (Switch button names, as in the table above).
 
+## Settings menu language
+
+Open **F1 → Menu → Menu language** to choose **English**, **Русский**, **简体中文**, or **繁體中文**. The menu and performance overlay change immediately, and the selection is saved in `totk.ini`. This setting is separate from the game's language on the Game tab.
+
+For Simplified Chinese, set `menu_lang = zh-Hans` under `[language]`; for Traditional Chinese, use `menu_lang = zh-Hant`. An empty value follows the system display language. Chinese locales use their explicit script when present; otherwise Taiwan, Hong Kong and Macao use Traditional Chinese, and other Chinese locales use Simplified Chinese. Unsupported system languages use English. `TOTK_MENU_LANG` overrides the file setting.
+
+Chinese text uses installed system fonts: Microsoft YaHei/SimSun for Simplified Chinese and Microsoft JhengHei/MingLiU for Traditional Chinese on Windows, or Noto Sans CJK on Linux. If Chinese characters appear as boxes, install the corresponding system font and restart the application.
+
 ## Remapping
 
 The *Controls* tab of the settings menu lists, under the button layout, every Switch button and the eight stick directions the keys drive (movement and camera), each with two key cells and a controller cell. Select a cell, press A or Enter, then press the new key, mouse button or controller button; Esc or five seconds without a press cancel, and a controller button cancels a key cell. Delete, Backspace or X clears the selected cell. A key another action has moves to the new one (the description names the action it left); a controller button swaps with the one it replaces. A remapped controller button is physical: from then on the face buttons (A B X Y) stay where they are in both layouts, until the buttons are put back as the layout in use has them or *Reset all buttons* is chosen. F1, F8, F10, F11 and Esc cannot be bound (the menu, the flight recorder and the window keep them). Punctuation keys are named by their place on a US keyboard; the menu shows the character the keyboard layout in use puts there.
