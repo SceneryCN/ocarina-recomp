@@ -145,6 +145,8 @@ Use um controle ou teclado e mouse. **F1** ou **Esc** abre o menu de opções, *
 
 Leia o **[guia de contribuição](CONTRIBUTING.md)**. Testar em outras placas de vídeo e relatar o resultado já ajuda muito.
 
+Para gerar o instalador Windows x64 no GitHub, veja o [guia do GitHub Actions](docs/github-actions.md) (em inglês): execução manual ou por tag de versão, com download do ZIP na página da execução.
+
 ## Créditos
 
 Projeto mantido por **Miojo** ([sostenesfreitas](https://github.com/sostenesfreitas)). Dizem que ele deixou um recado escondido no instalador e outro dentro do jogo. 🍜
